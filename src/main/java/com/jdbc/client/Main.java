@@ -1,6 +1,8 @@
 package com.jdbc.client;
 
 
+import java.util.List;
+
 import com.jdbc.dao.EmployeeDao;
 import com.jdbc.dao.EmployeeDaoImpl;
 import com.jdbc.entity.Employee;
@@ -36,12 +38,24 @@ public class Main {
 //	    	 dao.insertEmp(emp);
 	    	
 	    	
+//	    	 emp =new Employee(10,31000,"rituraj","male");
+//	    	 dao.insertEmpPs(emp);
+	    	 
 //	    	dao.updateEmp(emp);
 	    	
 //	    	dao.deleteEmp(7);
+//	    	dao.getEmpById(4);
 	    	
-//	    	dao.getAllEmps();
-	    	dao.getEmpById(3);
+//	    	dao.getEmpByName("krishna");
+	    	dao.getAllEmps();
+    	
+	    	
+	    	
+//	    	List<Employee> allEmpRecords =dao.getAllEmpRecords();
+//	    	for(Employee em : allEmpRecords) {
+//	    		System.out.println("Emp: "+em);
+//	    	}
+	    	
 
 	}
 
